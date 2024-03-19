@@ -1,0 +1,116 @@
+
+nav {
+  background-color: #add8e6;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #0000ff;
+}
+
+#fechaYHora{
+	background-color: #add8e6;
+	color: black;
+}
+
+h3 {
+	color:black;
+	background-color:red;
+	box-shadow:2px 4px 4px rgb(0 0 0 / 25%)
+
+}
+
+h3:hover{
+	background-color: blue;
+}
+
+#fechaYHora{
+	border-radius:10px;
+}
+
+.blue {
+	color: white;
+	border-radius:10px;
+	background-color: blue;
+}
+
+.container {
+	display: grid;
+	/* grid-template: 120 px 1fr 120 px / 400 px 1fr;*/
+	grid-template:  50 % 50 % / 50% 50%;
+	grid-template-areas:"uno dos"
+						"tres cuatro"
+	 					"cinco seis" 
+	 					;
+	 grid-columns:50 % 50% 50%;
+	grid-gap: 20px;
+	height: 100vh;
+
+}
+.uno{
+	grid-area: uno;
+	box-shadow:2px 4px 4px rgb(0 0 0 / 25%);
+	border-radius:10px;
+	justify-content:center;
+}
+.dos{
+	grid-area:dos;
+	box-shadow:2px 4px 4px rgb(0 0 0 / 25%);
+	border-radius:10px;
+	justify-content:center;
+
+}
+.tres{
+	grid-area:tres;
+	box-shadow:2px 4px 4px rgb(0 0 0 / 25%);
+	border-radius:10px;
+	justify-content:center;
+}
+.cuatro{
+	grid-area:cuatro;
+	box-shadow:2px 4px 4px rgb(0 0 0 / 25%)
+	border-radius:10px;
+}
+.cinco{
+	grid-area:cinco;
+	box-shadow:2px 4px 4px rgb(0 0 0 / 25%);
+	border-radius:10px;
+	justify-content:center;
+}
+.seis{
+	grid-area:seis;
+	box-shadow:2px 4px 4px rgb(0 0 0 / 25%);
+	border-radius:10px;
+	justify-content:center;
+
+}
+
+
+
+
+
+.item{
+	background-color: #add8e6;
+	padding: 10px;
+	color:black;
+	border-radius: 10 px;
+	justify-content:center;
+}
