@@ -8,11 +8,12 @@ const aplicacion = document.querySelector(".container");
 //const url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=VYYGK6814T8BCRCE';
 //Welcome to Alpha Vantage! Your API key is: WA1PBI9WFC3TXN9S. Please record this API key at a safe place for future data access.
 
-// esta funciona //const url = "https://newsdata.io/api/1/news?language=es&country=ar&apikey=pub_4128311e7d22453e917c0d9cb72cc14fca933&q=argentina" 
+ //esta funciona 
+ const url = "https://newsdata.io/api/1/news?language=es&country=ar&apikey=pub_4128311e7d22453e917c0d9cb72cc14fca933&q=argentina" 
 
 //const url = "https://google-news13.p.rapidapi.com/world?lr=en-US";
 
-const url = "https://newsdata.io/api/1/news?apikey=pub_4128311e7d22453e917c0d9cb72cc14fca933&q=argentina&country=ar&language=es&category=politics"
+//const url = "https://newsdata.io/api/1/news?apikey=pub_4128311e7d22453e917c0d9cb72cc14fca933&q=argentina&country=ar&language=es&category=politics"
 
  //var url = 'https://newsapi.org/v2/everything?' +
 //           'q=Apple&' +
