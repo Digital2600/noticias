@@ -29,13 +29,13 @@ fetch(url)
 .then(data => {
 
     var titulo1=  document.getElementById('titulo1')
-    var pais1 = document.getElementById('pais1')
+    //var pais1 = document.getElementById('pais1')
     var descripcion1 = document.getElementById('descripcion1')
     var imagen1 = document.getElementById('imagen1')
     var link1 = document.getElementById('link1')
     
     titulo1.innerHTML = `<p>${data.results[0].title}</p>`
-    pais1.innerHTML = `<p>${data.results[0].country}</p>`
+    //pais1.innerHTML = `<p>${data.results[0].country}</p>`
     descripcion1.innerHTML = `<p>${data.results[0].description}</p>`
     imagen1.innerHTML = `<img src=${data.results[0].image_url} width="600" height=auto>`
     link1.innerHTML = `<p>${data.results[0].link}`
@@ -43,14 +43,14 @@ fetch(url)
 
 
     var titulo2 =document.getElementById('titulo2')
-    var pais2 = document.getElementById('pais2')
+    //var pais2 = document.getElementById('pais2')
     var descripcion2 = document.getElementById('descripcion2')
     var imagen2 = document.getElementById('imagen2')
     var link2 = document.getElementById('link2')
 
 
     titulo2.innerHTML = `<p>${data.results[1].title}</p>`
-    pais2.innerHTML = `<p>${data.results[1].country}</p>`
+    //pais2.innerHTML = `<p>${data.results[1].country}</p>`
     descripcion2.innerHTML =`<p>${data.results[1].description}</p>`
     imagen2.innerHTML = `<img src=${data.results[1].image_url} width="600" height=auto>`
     link2.innerHTML = `<p>${data.results[1].link}`
@@ -58,45 +58,45 @@ fetch(url)
 
 
     var titulo3 = document.getElementById('titulo3')
-    var pais3= document.getElementById('pais3')
+    //var pais3= document.getElementById('pais3')
     var descripcion3 = document.getElementById('descripcion3')
     var imagen3 = document.getElementById('imagen3')
     var link3 = document.getElementById('link3')
 
     titulo3.innerHTML = `<p>${data.results[2].title}</p>`
-    pais3.innerHTML = `<p>${data.results[2].country}</p>`
+    //pais3.innerHTML = `<p>${data.results[2].country}</p>`
     descripcion3.innerHTML = `<p>${data.results[2].description}</p>`
     imagen3.innerHTML = `<img src=${data.results[2].image_url} width="600" height=auto>`
     link3.innerHTML = `<p>${data.results[2].link}`
 
 
     var titulo4 = document.getElementById('titulo4')
-    var pais4= document.getElementById('pais4')
+    //var pais4= document.getElementById('pais4')
     var descripcion4 = document.getElementById('descripcion4')
     var imagen4 = document.getElementById('imagen4')
     var link4 = document.getElementById('link4')
 
     titulo4.innerHTML = `<p>${data.results[3].title}</p>`
-    pais4.innerHTML = `<p>${data.results[3].country}</p>`
+    //pais4.innerHTML = `<p>${data.results[3].country}</p>`
     descripcion4.innerHTML = `<p>${data.results[3].description}</p>`
     imagen4.innerHTML = `<img src=${data.results[3].image_url} width="600" height=auto>`
     link4.innerHTML = `<p>${data.results[3].link}`
 
 
     var titulo5 = document.getElementById('titulo5')
-    var pais5= document.getElementById('pais5')
+    //var pais5= document.getElementById('pais5')
     var descripcion5 = document.getElementById('descripcion5')
     var imagen5 = document.getElementById('imagen5')
     var link5 = document.getElementById('link5')
 
     titulo5.innerHTML = `<p>${data.results[4].title}</p>`
-    pais5.innerHTML = `<p>${data.results[4].country}</p>`
+    //pais5.innerHTML = `<p>${data.results[4].country}</p>`
     descripcion5.innerHTML = `<p>${data.results[4].description}</p>`
     imagen5.innerHTML = `<img src=${data.results[4].image_url} width="600" height=auto>`
     link5.innerHTML = `<p>${data.results[4].link}`
 
     var titulo6 = document.getElementById('titulo6')
-    var pais6= document.getElementById('pais6')
+    //var pais6= document.getElementById('pais6')
     var descripcion6 = document.getElementById('descripcion6')
     var imagen6 = document.getElementById('imagen6')
     var link6 = document.getElementById('link6')
@@ -104,7 +104,7 @@ fetch(url)
 
 
     titulo6.innerHTML = `<p>${data.results[5].title}</p>`
-    pais6.innerHTML = `<p>${data.results[5].country}</p>`
+    //pais6.innerHTML = `<p>${data.results[5].country}</p>`
     descripcion6.innerHTML = `<p>${data.results[5].description}</p>`
     imagen6.innerHTML = `<img src=${data.results[5].image_url}width="600" height=auto>`
     link6.innerHTML = `<p>${data.results[5].link}`
