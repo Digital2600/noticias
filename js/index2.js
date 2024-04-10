@@ -110,7 +110,33 @@ fetch(url)
     link6.innerHTML = `<p>${data.results[5].link}`
 
 
-    
+        var titulo9 = document.getElementById('titulo9')
+    //var pais9= document.getElementById('pais9')
+    var descripcion9 = document.getElementById('descripcion9')
+    var imagen9 = document.getElementById('imagen9')
+    var link9 = document.getElementById('link9')
+
+
+
+    titulo9.innerHTML = `<p>${data.results[8].title}</p>`
+    //pais6.innerHTML = `<p>${data.results[8].country}</p>`
+    descripcion9.innerHTML = `<p>${data.results[8].description}</p>`
+    imagen9.innerHTML = `<img src=${data.results[8].image_url}width="600" height=auto>`
+    link9.innerHTML = `<p>${data.results[8].link}`
+
+    var titulo10 = document.getElementById('titulo10')
+    //var pais10= document.getElementById('pais10')
+    var descripcion10 = document.getElementById('descripcion10')
+    var imagen10 = document.getElementById('imagen10')
+    var link10 = document.getElementById('link10')
+
+
+
+    titulo10.innerHTML = `<p>${data.results[9].title}</p>`
+    //pais10.innerHTML = `<p>${data.results[9].country}</p>`
+    descripcion10.innerHTML = `<p>${data.results[9].description}</p>`
+    imagen10.innerHTML = `<img src=${data.results[9].image_url}width="600" height=auto>`
+    link10.innerHTML = `<p>${data.results[9].link}`
 
 
 
