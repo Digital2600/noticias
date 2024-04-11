@@ -28,6 +28,8 @@ fetch(url)
 .then(response => response.json())
 .then(data => {
 
+    console.log(data)
+
     var titulo1=  document.getElementById('titulo1')
     //var pais1 = document.getElementById('pais1')
     var descripcion1 = document.getElementById('descripcion1')
@@ -110,7 +112,36 @@ fetch(url)
     link6.innerHTML = `<p>${data.results[5].link}`
 
 
-        var titulo9 = document.getElementById('titulo9')
+    var titulo7 = document.getElementById('titulo7')
+    //var pais7= document.getElementById('pais7')
+    var descripcion7 = document.getElementById('descripcion7')
+    var imagen7 = document.getElementById('imagen7')
+    var link7 = document.getElementById('link7')
+
+
+
+    titulo7.innerHTML = `<p>${data.results[6].title}</p>`
+    //pais7.innerHTML = `<p>${data.results[6].country}</p>`
+    descripcion7.innerHTML = `<p>${data.results[6].description}</p>`
+    imagen7.innerHTML = `<img src=${data.results[6].image_url}width="600" height=auto>`
+    link7.innerHTML = `<p>${data.results[6].link}`
+
+
+
+    var titulo8 = document.getElementById('titulo8')
+    //var pais7= document.getElementById('pais8')
+    var descripcion8 = document.getElementById('descripcion8')
+    var imagen8 = document.getElementById('imagen8')
+    var link8 = document.getElementById('link8')
+
+    titulo8.innerHTML = `<p>${data.results[7].title}</p>`
+    //pais8.innerHTML = `<p>${data.results[7].country}</p>`
+    descripcion8.innerHTML = `<p>${data.results[7].description}</p>`
+    imagen8.innerHTML = `<img src=${data.results[7].image_url}width="600" height=auto>`
+    link8.innerHTML = `<p>${data.results[7].link}`
+
+
+    var titulo9 = document.getElementById('titulo9')
     //var pais9= document.getElementById('pais9')
     var descripcion9 = document.getElementById('descripcion9')
     var imagen9 = document.getElementById('imagen9')
@@ -129,8 +160,6 @@ fetch(url)
     var descripcion10 = document.getElementById('descripcion10')
     var imagen10 = document.getElementById('imagen10')
     var link10 = document.getElementById('link10')
-
-
 
     titulo10.innerHTML = `<p>${data.results[9].title}</p>`
     //pais10.innerHTML = `<p>${data.results[9].country}</p>`
