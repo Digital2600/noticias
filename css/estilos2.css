@@ -86,16 +86,18 @@ height: auto;
 .container {
 	display: grid;
 	/* grid-template: 120 px 1fr 120 px / 400 px 1fr;*/
-	grid-template:  25 % 25 % 25 % 25 %/ 50% 50%;
+	/*grid-template:  25 % 25 % 25 % 25 % 25 % 25 % 25 % 25 % 25 % 25 % 25 % 25 %/ 50 % 50 %;*/
 	grid-template-areas:"uno dos"
 						"tres cuatro"
 	 					"cinco seis" 
 	 					"siete ocho"
 	 					"nueve diez" 
+	 					"once doce"
 	 					;
-	 grid-columns:50 % 50% 50%;
+	 /*grid-columns:50 % 50 % 50 %;*/
+	 grid-template-columns: 50% 50% 50%;
 	grid-gap: 20px;
-	height: 100vh;
+	/*height: 100vh;*/
 
 
 }
