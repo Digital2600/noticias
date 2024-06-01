@@ -94,8 +94,9 @@ height: auto;
 	 					"nueve diez" 
 	 					"once doce"
 	 					;
-	 /*grid-columns:50 % 50 % 50 %;*/
-	 grid-template-columns: 50% 50% 50%;
+	 grid-columns:auto;
+	 grid-template-columns: auto;
+	grit-template-rows:auto;
 	grid-gap: 20px;
 	/*height: 100vh;*/
 
