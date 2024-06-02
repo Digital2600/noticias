@@ -97,13 +97,13 @@ height: auto;
 
 
 }
-.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez{
+.uno{
 	grid-area: uno;
 	box-shadow:2px 4px 4px rgb(0 0 0 / 25%);
 	border-radius:10px;
 	justify-content:center;
 }
-/*.dos{
+.dos{
 	grid-area:dos;
 	box-shadow:2px 4px 4px rgb(0 0 0 / 25%);
 	border-radius:10px;
@@ -160,7 +160,7 @@ height: auto;
 	box-shadow: 2px 4px 4 px rgb(0 0 0 /25 %);
 	border-radius: 10 px;
 	justify-content: center;
-}*/
+}
 
 .item{
 	background-color: #add8e6;
