@@ -85,7 +85,7 @@ height: auto;
 
 .container {
 	display: grid;
-	grid-template: 50% 50% / 50% 50%;
+	grid-template: 25% 25% 25%  25% / 50% 50%;
 	grid-template-areas:"uno dos"
 						"tres cuatro"
 	 					"cinco seis" 
